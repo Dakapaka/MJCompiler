@@ -1,0 +1,177 @@
+INFO  18:26:46,527 - Compiling source file: C:\Users\Korisnik\Desktop\Faks\4. godina\7. semestar\PP1\projekat\sablon\pp1lab.templateAST\workspace\projekatAvgust\test\program.mj
+INFO  18:26:46,544 - #2 program
+INFO  18:26:46,544 - #48 test301
+INFO  18:26:46,545 - #48 int
+INFO  18:26:46,545 - #48 x
+INFO  18:26:46,546 - #39 ;
+INFO  18:26:46,547 - #43 {
+INFO  18:26:46,547 - #16 void
+INFO  18:26:46,547 - #48 main
+INFO  18:26:46,547 - #41 (
+INFO  18:26:46,548 - #42 )
+INFO  18:26:46,548 - #43 {
+INFO  18:26:46,548 - #48 x
+INFO  18:26:46,548 - #28 =
+INFO  18:26:46,549 - #47 3
+INFO  18:26:46,550 - #39 ;
+INFO  18:26:46,551 - #9 if
+INFO  18:26:46,551 - #41 (
+INFO  18:26:46,551 - #48 x
+INFO  18:26:46,552 - #27 ==
+INFO  18:26:46,552 - #47 3
+INFO  18:26:46,553 - #42 )
+INFO  18:26:46,554 - #3 print
+INFO  18:26:46,554 - #41 (
+INFO  18:26:46,554 - #47 1
+INFO  18:26:46,554 - #42 )
+INFO  18:26:46,554 - #39 ;
+INFO  18:26:46,554 - #10 else
+INFO  18:26:46,554 - #3 print
+INFO  18:26:46,554 - #41 (
+INFO  18:26:46,554 - #47 2
+INFO  18:26:46,554 - #42 )
+INFO  18:26:46,554 - #39 ;
+INFO  18:26:46,554 - #44 }
+INFO  18:26:46,554 - #44 }
+INFO  18:26:46,556 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  VarDeclType(
+    NoDeclType(
+    ) [NoDeclType]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      NoVarDeclVal(
+        VarDeclVal(
+         x
+          NoBrackets(
+          ) [NoBrackets]
+        ) [VarDeclVal]
+      ) [NoVarDeclVal]
+    ) [VarDecl]
+  ) [VarDeclType]
+  NoMethodDecl(
+    MethodDecl(
+      MethodTypeName(
+        VoidType(
+        ) [VoidType]
+       main
+      ) [MethodTypeName]
+      NoFormalParam(
+      ) [NoFormalParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        Statements(
+          NoStatements(
+          ) [NoStatements]
+          DesignatorStmt(
+            DesignatorStatement(
+              Designator(
+               x
+                NoExprBrList(
+                ) [NoExprBrList]
+              ) [Designator]
+              AssingopDesignatorExpr(
+                Assignop(
+                ) [Assignop]
+                PositiveExpr(
+                  Term(
+                    NumberFactor(
+                     3
+                    ) [NumberFactor]
+                    NoMulopFactors(
+                    ) [NoMulopFactors]
+                  ) [Term]
+                  NoAddopTerms(
+                  ) [NoAddopTerms]
+                ) [PositiveExpr]
+              ) [AssingopDesignatorExpr]
+            ) [DesignatorStatement]
+          ) [DesignatorStmt]
+        ) [Statements]
+        IfElseStmt(
+          If(
+          ) [If]
+          Condition(
+            ConditionBegin(
+            ) [ConditionBegin]
+            SingleCondTerm(
+              CondTerm(
+                CondTermBegin(
+                ) [CondTermBegin]
+                SingleCondFact(
+                  CondFactExprRelop(
+                    PositiveExpr(
+                      Term(
+                        DesignatorFactor(
+                          Designator(
+                           x
+                            NoExprBrList(
+                            ) [NoExprBrList]
+                          ) [Designator]
+                        ) [DesignatorFactor]
+                        NoMulopFactors(
+                        ) [NoMulopFactors]
+                      ) [Term]
+                      NoAddopTerms(
+                      ) [NoAddopTerms]
+                    ) [PositiveExpr]
+                    IsEqualOp(
+                    ) [IsEqualOp]
+                    PositiveExpr(
+                      Term(
+                        NumberFactor(
+                         3
+                        ) [NumberFactor]
+                        NoMulopFactors(
+                        ) [NoMulopFactors]
+                      ) [Term]
+                      NoAddopTerms(
+                      ) [NoAddopTerms]
+                    ) [PositiveExpr]
+                  ) [CondFactExprRelop]
+                ) [SingleCondFact]
+              ) [CondTerm]
+            ) [SingleCondTerm]
+          ) [Condition]
+          PrintNoNumStmt(
+            PositiveExpr(
+              Term(
+                NumberFactor(
+                 1
+                ) [NumberFactor]
+                NoMulopFactors(
+                ) [NoMulopFactors]
+              ) [Term]
+              NoAddopTerms(
+              ) [NoAddopTerms]
+            ) [PositiveExpr]
+          ) [PrintNoNumStmt]
+          Else(
+          ) [Else]
+          PrintNoNumStmt(
+            PositiveExpr(
+              Term(
+                NumberFactor(
+                 2
+                ) [NumberFactor]
+                NoMulopFactors(
+                ) [NoMulopFactors]
+              ) [Term]
+              NoAddopTerms(
+              ) [NoAddopTerms]
+            ) [PositiveExpr]
+          ) [PrintNoNumStmt]
+        ) [IfElseStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [NoMethodDecl]
+) [Program]
+INFO  18:26:46,556 - ===================================
+INFO  18:26:46,558 - Deklarisana promenljiva x na liniji 5
+INFO  18:26:46,558 - Obradjuje se funkcija main na liniji 8
+INFO  18:26:46,563 - Parsiranje uspjesno zavrseno!

@@ -1,0 +1,96 @@
+// generated with ast extension for cup
+// version 0.8
+// 21/7/2023 19:37:6
+
+
+package rs.ac.bg.etf.pp1.ast;
+
+public class CondTerm implements SyntaxNode {
+
+    private SyntaxNode parent;
+    private int line;
+    private CondTermBegin CondTermBegin;
+    private CondFactList CondFactList;
+
+    public CondTerm (CondTermBegin CondTermBegin, CondFactList CondFactList) {
+        this.CondTermBegin=CondTermBegin;
+        if(CondTermBegin!=null) CondTermBegin.setParent(this);
+        this.CondFactList=CondFactList;
+        if(CondFactList!=null) CondFactList.setParent(this);
+    }
+
+    public CondTermBegin getCondTermBegin() {
+        return CondTermBegin;
+    }
+
+    public void setCondTermBegin(CondTermBegin CondTermBegin) {
+        this.CondTermBegin=CondTermBegin;
+    }
+
+    public CondFactList getCondFactList() {
+        return CondFactList;
+    }
+
+    public void setCondFactList(CondFactList CondFactList) {
+        this.CondFactList=CondFactList;
+    }
+
+    public SyntaxNode getParent() {
+        return parent;
+    }
+
+    public void setParent(SyntaxNode parent) {
+        this.parent=parent;
+    }
+
+    public int getLine() {
+        return line;
+    }
+
+    public void setLine(int line) {
+        this.line=line;
+    }
+
+    public void accept(Visitor visitor) {
+        visitor.visit(this);
+    }
+
+    public void childrenAccept(Visitor visitor) {
+        if(CondTermBegin!=null) CondTermBegin.accept(visitor);
+        if(CondFactList!=null) CondFactList.accept(visitor);
+    }
+
+    public void traverseTopDown(Visitor visitor) {
+        accept(visitor);
+        if(CondTermBegin!=null) CondTermBegin.traverseTopDown(visitor);
+        if(CondFactList!=null) CondFactList.traverseTopDown(visitor);
+    }
+
+    public void traverseBottomUp(Visitor visitor) {
+        if(CondTermBegin!=null) CondTermBegin.traverseBottomUp(visitor);
+        if(CondFactList!=null) CondFactList.traverseBottomUp(visitor);
+        accept(visitor);
+    }
+
+    public String toString(String tab) {
+        StringBuffer buffer=new StringBuffer();
+        buffer.append(tab);
+        buffer.append("CondTerm(\n");
+
+        if(CondTermBegin!=null)
+            buffer.append(CondTermBegin.toString("  "+tab));
+        else
+            buffer.append(tab+"  null");
+        buffer.append("\n");
+
+        if(CondFactList!=null)
+            buffer.append(CondFactList.toString("  "+tab));
+        else
+            buffer.append(tab+"  null");
+        buffer.append("\n");
+
+        buffer.append(tab);
+        buffer.append(") [CondTerm]");
+        return buffer.toString();
+    }
+}

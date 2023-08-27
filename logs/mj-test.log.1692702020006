@@ -1,0 +1,226 @@
+INFO  12:57:26,572 - Compiling source file: C:\Users\Korisnik\Desktop\Faks\4. godina\7. semestar\PP1\projekat\sablon\pp1lab.templateAST\workspace\projekatAvgust\test\program.mj
+INFO  12:57:26,592 - #2 program
+INFO  12:57:26,592 - #48 test
+INFO  12:57:26,592 - #48 int
+INFO  12:57:26,593 - #48 niz1
+INFO  12:57:26,593 - #45 [
+INFO  12:57:26,593 - #46 ]
+INFO  12:57:26,593 - #39 ;
+INFO  12:57:26,594 - #48 int
+INFO  12:57:26,594 - #48 niz2
+INFO  12:57:26,594 - #45 [
+INFO  12:57:26,594 - #46 ]
+INFO  12:57:26,594 - #39 ;
+INFO  12:57:26,594 - #48 int
+INFO  12:57:26,594 - #48 i
+INFO  12:57:26,594 - #40 ,
+INFO  12:57:26,594 - #48 j
+INFO  12:57:26,595 - #39 ;
+INFO  12:57:26,595 - #48 int
+INFO  12:57:26,595 - #48 curr1
+INFO  12:57:26,613 - #40 ,
+INFO  12:57:26,613 - #48 curr2
+INFO  12:57:26,613 - #39 ;
+INFO  12:57:26,613 - #43 {
+INFO  12:57:26,613 - #16 void
+INFO  12:57:26,613 - #48 main
+INFO  12:57:26,614 - #41 (
+INFO  12:57:26,614 - #42 )
+INFO  12:57:26,615 - #43 {
+INFO  12:57:26,615 - #9 if
+INFO  12:57:26,616 - #41 (
+INFO  12:57:26,616 - #47 1
+INFO  12:57:26,616 - #27 ==
+INFO  12:57:26,618 - #47 1
+INFO  12:57:26,618 - #36 &&
+INFO  12:57:26,619 - #47 0
+INFO  12:57:26,619 - #42 )
+INFO  12:57:26,619 - #43 {
+INFO  12:57:26,619 - #3 print
+INFO  12:57:26,619 - #41 (
+INFO  12:57:26,619 - #47 123
+INFO  12:57:26,619 - #42 )
+INFO  12:57:26,620 - #39 ;
+INFO  12:57:26,620 - #44 }
+INFO  12:57:26,620 - #44 }
+INFO  12:57:26,620 - #44 }
+INFO  12:57:26,622 - Program(
+  ProgName(
+   test
+  ) [ProgName]
+  VarDeclType(
+    VarDeclType(
+      VarDeclType(
+        VarDeclType(
+          NoDeclType(
+          ) [NoDeclType]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            NoVarDeclVal(
+              VarDeclVal(
+               niz1
+                SingleBrackets(
+                ) [SingleBrackets]
+              ) [VarDeclVal]
+            ) [NoVarDeclVal]
+          ) [VarDecl]
+        ) [VarDeclType]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          NoVarDeclVal(
+            VarDeclVal(
+             niz2
+              SingleBrackets(
+              ) [SingleBrackets]
+            ) [VarDeclVal]
+          ) [NoVarDeclVal]
+        ) [VarDecl]
+      ) [VarDeclType]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VarDeclVals(
+          NoVarDeclVal(
+            VarDeclVal(
+             i
+              NoBrackets(
+              ) [NoBrackets]
+            ) [VarDeclVal]
+          ) [NoVarDeclVal]
+          VarDeclVal(
+           j
+            NoBrackets(
+            ) [NoBrackets]
+          ) [VarDeclVal]
+        ) [VarDeclVals]
+      ) [VarDecl]
+    ) [VarDeclType]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      VarDeclVals(
+        NoVarDeclVal(
+          VarDeclVal(
+           curr1
+            NoBrackets(
+            ) [NoBrackets]
+          ) [VarDeclVal]
+        ) [NoVarDeclVal]
+        VarDeclVal(
+         curr2
+          NoBrackets(
+          ) [NoBrackets]
+        ) [VarDeclVal]
+      ) [VarDeclVals]
+    ) [VarDecl]
+  ) [VarDeclType]
+  NoMethodDecl(
+    MethodDecl(
+      MethodTypeName(
+        VoidType(
+        ) [VoidType]
+       main
+      ) [MethodTypeName]
+      NoFormalParam(
+      ) [NoFormalParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStatements(
+        ) [NoStatements]
+        IfStmt(
+          If(
+          ) [If]
+          Condition(
+            ConditionBegin(
+            ) [ConditionBegin]
+            SingleCondTerm(
+              CondTerm(
+                CondTermBegin(
+                ) [CondTermBegin]
+                CondFacts(
+                  SingleCondFact(
+                    CondFactExprRelop(
+                      PositiveExpr(
+                        Term(
+                          NumberFactor(
+                           1
+                          ) [NumberFactor]
+                          NoMulopFactors(
+                          ) [NoMulopFactors]
+                        ) [Term]
+                        NoAddopTerms(
+                        ) [NoAddopTerms]
+                      ) [PositiveExpr]
+                      IsEqualOp(
+                      ) [IsEqualOp]
+                      PositiveExpr(
+                        Term(
+                          NumberFactor(
+                           1
+                          ) [NumberFactor]
+                          NoMulopFactors(
+                          ) [NoMulopFactors]
+                        ) [Term]
+                        NoAddopTerms(
+                        ) [NoAddopTerms]
+                      ) [PositiveExpr]
+                    ) [CondFactExprRelop]
+                  ) [SingleCondFact]
+                  CondFactExpr(
+                    PositiveExpr(
+                      Term(
+                        NumberFactor(
+                         0
+                        ) [NumberFactor]
+                        NoMulopFactors(
+                        ) [NoMulopFactors]
+                      ) [Term]
+                      NoAddopTerms(
+                      ) [NoAddopTerms]
+                    ) [PositiveExpr]
+                  ) [CondFactExpr]
+                ) [CondFacts]
+              ) [CondTerm]
+            ) [SingleCondTerm]
+          ) [Condition]
+          StatmentStmt(
+            Statements(
+              NoStatements(
+              ) [NoStatements]
+              PrintNoNumStmt(
+                PositiveExpr(
+                  Term(
+                    NumberFactor(
+                     123
+                    ) [NumberFactor]
+                    NoMulopFactors(
+                    ) [NoMulopFactors]
+                  ) [Term]
+                  NoAddopTerms(
+                  ) [NoAddopTerms]
+                ) [PositiveExpr]
+              ) [PrintNoNumStmt]
+            ) [Statements]
+          ) [StatmentStmt]
+        ) [IfStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [NoMethodDecl]
+) [Program]
+INFO  12:57:26,622 - ===================================
+INFO  12:57:26,627 - Deklarisana promenljiva niz1 na liniji 3
+INFO  12:57:26,627 - Deklarisana promenljiva niz2 na liniji 4
+INFO  12:57:26,627 - Deklarisana promenljiva i na liniji 5
+INFO  12:57:26,627 - Deklarisana promenljiva j na liniji 5
+INFO  12:57:26,627 - Deklarisana promenljiva curr1 na liniji 6
+INFO  12:57:26,627 - Deklarisana promenljiva curr2 na liniji 6
+INFO  12:57:26,628 - Obradjuje se funkcija main na liniji 9
+ERROR 12:57:26,628 - Greska na liniji 10: nije logicki izraz!
+ERROR 12:57:26,628 - Parsiranje NIJE uspjesno zavrseno!

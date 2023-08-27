@@ -1,0 +1,46 @@
+INFO  19:24:15,081 - Compiling source file: C:\Users\Korisnik\Desktop\Faks\4. godina\7. semestar\PP1\projekat\sablon\pp1lab.templateAST\workspace\projekatAvgust\test\program.mj
+INFO  19:24:15,099 - #2 program
+INFO  19:24:15,099 - #48 test301
+INFO  19:24:15,099 - #48 int
+INFO  19:24:15,100 - #48 x
+INFO  19:24:15,100 - #40 ,
+INFO  19:24:15,100 - #48 y
+INFO  19:24:15,100 - #39 ;
+INFO  19:24:15,101 - #43 {
+INFO  19:24:15,101 - #16 void
+INFO  19:24:15,101 - #48 main
+INFO  19:24:15,101 - #41 (
+INFO  19:24:15,102 - #42 )
+INFO  19:24:15,102 - #48 int
+INFO  19:24:15,102 - #48 i
+INFO  19:24:15,102 - #39 ;
+INFO  19:24:15,102 - #48 int
+INFO  19:24:15,102 - #48 niz
+INFO  19:24:15,102 - #45 [
+INFO  19:24:15,103 - #46 ]
+INFO  19:24:15,104 - #39 ;
+INFO  19:24:15,105 - #48 int
+INFO  19:24:15,105 - #48 curr
+INFO  19:24:15,105 - #39 ;
+INFO  19:24:15,105 - #43 {
+INFO  19:24:15,105 - #48 i
+INFO  19:24:15,105 - #28 =
+INFO  19:24:15,106 - #47 0
+INFO  19:24:15,106 - #39 ;
+INFO  19:24:15,107 - #13 while
+INFO  19:24:15,107 - #41 (
+INFO  19:24:15,108 - #48 i
+INFO  19:24:15,108 - #32 <
+INFO  19:24:15,108 - #47 5
+INFO  19:24:15,109 - #42 )
+INFO  19:24:15,110 - #43 {
+INFO  19:24:15,110 - #48 niz
+INFO  19:24:15,110 - #45 [
+INFO  19:24:15,110 - #48 i
+INFO  19:24:15,110 - #46 ]
+INFO  19:24:15,110 - #28 =
+INFO  19:24:15,110 - #48 i
+INFO  19:24:15,110 - #11 ++
+ERROR 19:24:15,110 - 
+Sintaksna greska na liniji 15
+ERROR 19:24:15,111 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 15
